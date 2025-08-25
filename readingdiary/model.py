@@ -24,7 +24,7 @@ class Book:
 
     def add_note(self, text: str, page: int, date: datetime) -> bool:
         if self.pages > page:
-            return False
+            return False.
 
 
 
